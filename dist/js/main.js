@@ -1,0 +1,1 @@
+const flipCards=document.querySelectorAll(".flip-card"),card=(flipCards.forEach(e=>{e.addEventListener("click",()=>{e.classList.toggle("flipped")})}),document.getElementById("card"));card.addEventListener("click",function(){card.classList.toggle("flipped")});
